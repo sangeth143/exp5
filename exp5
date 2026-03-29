@@ -1,0 +1,35 @@
+# displaying items 
+listitem=["apple","kivi","orange","banana"]
+print(listitem[:4])
+
+# length of items
+items=["hello","hi","python","program"]
+print(len(items))
+
+# print first and last items
+items=["apple","banana","kivi","pineapple"]
+print("first element:",items[0])
+print("second element:",items[-1])
+
+# append and remove the word
+items=["apple","banana"]
+items1=["apple","banana"]
+items.append("cherry")
+items1.remove("banana")
+print("items after appending:",items)
+print("items after removing:",items1)
+
+# sum of 5 natural numbers
+num=[1,2,3,4,5]
+sum=0
+for i in num:
+    sum+=i
+print("sum=",sum)
+
+# count number of positive numbers
+num=[1,2,9,-1,3]
+c=0
+for i in num:
+    if i>0:
+        c+=1
+print("number of elements:",c)
